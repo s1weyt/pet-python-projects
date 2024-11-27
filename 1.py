@@ -7,5 +7,7 @@ def f(x):
 x = np.linspace(0, 5, 100)
 y = f(x)
 
+
+print("строим график")
 plt.plot(x,y, '--r')
 plt.show()
