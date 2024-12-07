@@ -6,8 +6,8 @@ c = a * b
 print(c)
 
 #Получение числителя/знаменателя
-print(c.numerator)
-print(c.denominator)
+print("Числитель=", c.numerator)
+print("Знаменатель=", c.denominator)
 
 #Конвертирование в float
 print(float(c))
